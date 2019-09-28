@@ -1,0 +1,33 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      parent = ""
+      type = Window
+    [[[child1]]]
+      parent = child0
+      type = HPaned
+    [[[child2]]]
+      parent = child1
+      type = VPaned
+    [[[child5]]]
+      parent = child1
+      type = VPaned
+    [[[terminal3]]]
+      parent = child2
+      type = Terminal
+    [[[terminal4]]]
+      parent = child2
+      type = Terminal
+    [[[terminal6]]]
+      parent = child5
+      type = Terminal
+    [[[terminal7]]]
+      parent = child5
+      type = Terminal
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    palette = "#282a36:#ff5c57:#5af78e:#f3f99d:#57c7ff:#ff6ac1:#9aedfe:#f1f1f0:#686868:#ff5c57:#5af78e:#f3f99d:#57c7ff:#ff6ac1:#9aedfe:#eff0eb"
