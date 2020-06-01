@@ -8,4 +8,5 @@ apt-get update
 apt-get install terminator
 
 # Setup configuration
+mkdir -p $HOME/.config/terminator/
 cp $CURR_DIR/config $HOME/.config/terminator/
