@@ -3,7 +3,7 @@
 CURR_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Install terminator
-sudo add-apt-repository ppa:gnome-terminator
+sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get install terminator
 
