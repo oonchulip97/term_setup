@@ -1,5 +1,12 @@
 [global_config]
+  title_hide_sizetext = True
 [keybindings]
+  next_tab = <Primary><Shift>Down
+  prev_tab = <Primary><Shift>Up
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  resize_up = None
 [layouts]
   [[default]]
     [[[child0]]]
