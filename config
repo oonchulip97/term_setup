@@ -1,29 +1,35 @@
 [global_config]
   title_hide_sizetext = True
+  window_state = maximise
 [keybindings]
-  next_tab = <Primary><Shift>Down
-  prev_tab = <Primary><Shift>Up
-  resize_down = None
-  resize_left = None
-  resize_right = None
-  resize_up = None
+  next_tab = <Primary><Shift>Up
+  prev_tab = <Primary><Shift>Down
+  resize_down = <Primary><Shift>j
+  resize_left = <Primary><Shift>h
+  resize_right = <Primary><Shift>l
+  resize_up = <Primary><Shift>k
 [layouts]
   [[default]]
     [[[child0]]]
+      last_active_term = a1c8a792-f0a6-4449-b07e-ab197ffd9036
       parent = ""
       type = Window
     [[[child1]]]
       parent = child0
-      type = HPaned
+      ratio = 0.5
+      type = VPaned
     [[[child2]]]
       parent = child1
-      type = VPaned
+      ratio = 0.5
+      type = HPaned
     [[[child5]]]
       parent = child1
-      type = VPaned
+      ratio = 0.5
+      type = HPaned
     [[[terminal3]]]
       parent = child2
       type = Terminal
+      uuid = a1c8a792-f0a6-4449-b07e-ab197ffd9036
     [[[terminal4]]]
       parent = child2
       type = Terminal
