@@ -2,8 +2,8 @@
   title_hide_sizetext = True
   window_state = maximise
 [keybindings]
-  next_tab = <Primary><Shift>Up
-  prev_tab = <Primary><Shift>Down
+  next_tab = <Primary><Shift>Down
+  prev_tab = <Primary><Shift>Up
   resize_down = <Primary><Shift>j
   resize_left = <Primary><Shift>h
   resize_right = <Primary><Shift>l
