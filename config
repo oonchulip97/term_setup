@@ -1,7 +1,10 @@
 [global_config]
+  inactive_color_offset = 1.0
   title_hide_sizetext = True
   window_state = maximise
 [keybindings]
+  line_down = <Alt>comma
+  line_up = <Alt>period
   next_tab = <Primary><Shift>Down
   prev_tab = <Primary><Shift>Up
   resize_down = <Primary><Shift>j
